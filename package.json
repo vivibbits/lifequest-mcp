@@ -1,0 +1,23 @@
+{
+  "name": "@bbits/lifequest-mcp",
+  "version": "1.0.0",
+  "description": "LifeQuest MCP Bridge for Hermes Agent",
+  "type": "module",
+  "main": "index.js",
+  "homepage": "https://bbits.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vivibbits/lifequest-mcp.git"
+  },
+  "bin": {
+    "lifequest-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setup.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dotenv": "^16.6.1"
+  }
+}
